@@ -1,0 +1,57 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "jogos gratis",
+            "me diga os jogos de graça hoje",
+            "quais jogos estão de graça hoje",
+            "quais são os jogos gratis",
+            "me diz quais são os jogos de graça",
+            "jogos de graça",
+            "jogos"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "gameName",
+              "type": "AMAZON.VideoGame"
+            }
+          ],
+          "name": "GameInfoIntent",
+          "samples": [
+            "quais as informações sobre o jogo {gameName}",
+            "me fale algo sobre o jogo {gameName}",
+            "Me diga sobre o jogo {gameName}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "epic games"
+    }
+  }
+}
